@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Perko® Special Part Inquiry</title>
+    <title>Perko Special Part Inquiry</title>
 
     <style>
         body {
@@ -96,189 +96,346 @@
 
 <body> 
 
-<div style="display: flex; align-items: center; justify-content: flex-start; margin-bottom: 20px; gap: 15px;">
+<div style="display: flex; align-items: flex-start; justify-content: flex-start; margin-bottom: 20px; gap: 15px;">
+    <!-- PERKO Column -->
     <div style="font-weight: bold; font-size: 40px; line-height: 1;">
         PERKO<span style="font-size: 15px; vertical-align: super;">®</span>
+        <div style="font-size: 14px; font-style: italic; font-weight: normal; margin-top: 4px;">
+            <b>Shaping the Wave of Excellence</b><sup>®</sup>
+        </div>
     </div>
+
+    <!-- Form Title Column -->
     <div style="font-size: 28px; font-weight: bold; text-decoration: underline; margin-left: 150px; line-height: 1.2;">
-        <em>Special Part Inquiry</em>
+        <em style="color: blue;">Special Part Inquiry</em>
     </div>
 </div>
-
-<div class="section-title"><center>General Information</center></div>
 
 <div class="general-info-wrapper">
 
     <!-- LEFT COLUMN -->
     <div class="general-info-column">
         <div class="row">
-            <label>Rep Name:</label>
-            <input type="text" id="repname">
+            <label><span style="color: blue;">Company Name:</span></label>
+            <input type="text">
         </div>
 		
 		<div class="row">
-            <label>Customer Name:</label>
-            <input type="text" id="customername">
+            <label>Contact Name:</label>
+            <input type="text">
         </div>       
 
         <div class="row">
-            <label>Address 1:</label>
-            <input type="text" id="address1">
+            <label>Phone Number:</label>
+            <input type="text">
         </div>
 
         <div class="row">
-            <label>Address 2:</label>
-            <input type="text" id="address2">
-        </div>
-
-        <div class="row">
-            <label>City, ST, Zip:</label>
-            <input type="text" id="citystatezip">
-        </div>
-
-        <div class="row">
-            <label>ATTN:</label>
-            <input type="text" id="attn">
+            <label>Rep Name:</label>
+            <input type="text">
         </div>
 		
 		<div class="row">
-            <label>Title:</label>
-            <input type="text" id="title">
+           <label>Special P/N <i style="font-size: smaller;">(Assigned after order placed)</i>:</label>
+           <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Quoted By:</label>
+            <input type="text">
         </div>
     </div>
 
     <!-- RIGHT COLUMN -->
     <div class="general-info-column">
         <div class="row">
-            <label>Date:</label>
+            <label><span style="color: blue;">Quote Number:</span></label>
             <input type="text">
         </div>
 
         <div class="row">
-            <label>Ship To:</label>
+            <label>Date Recieved:</label>
             <input type="text">
         </div>
 
         <div class="row">
-            <label>Address 1:</label>
+            <label><span style="color: blue;">Date Due:</span></label>
             <input type="text">
         </div>
 
         <div class="row">
-            <label>Address 2:</label>
-            <input type="text">
-        </div>
-
-        <div class="row">
-            <label>City, ST, Zip:</label>
-            <input type="text">
-        </div>
-
-        <div class="row">
-            <label>ATTN:</label>
+            <label>Taken By:</label>
             <input type="text">
         </div>
 		
 		<div class="row">
-            <label>Title:</label>
+            <label>Page Number:</label>
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Date Quoted:</label>
             <input type="text">
         </div>
     </div>
 
 </div>
 
+<div style="margin-bottom: 25px;"></div>
+
 </body>
 </html>
 
-<div class="section-title"><center>Please Foward To:</center></div>
-
-<div class="checkbox-row">
-    <input type="checkbox" id="myoffice">
-    <label for="myoffice">My office for presentation/delivery on my next call</label>
-</div>
-
-<div class="checkbox-row" style="margin-left: 25px; display: flex; align-items: center; gap: 20px;">
-
-    <label>Need Delivered By</label>
-    <input type="text" style="width: 150px; margin-left: 20px;">
-
-    <label style="margin-left: 20px;">My Acct #</label>
-    <input type="text" style="width: 150px; margin-left: 20px;">
-
-</div>
-
-<div class="checkbox-row">
-    <input type="checkbox" id="shipdirect">
-    <label for="shipdirect">Ship directly to customer at the address noted above</label>
-</div>
-
-<div class="checkbox-row">
-    <input type="checkbox" id="shipvia">
-    <label for="shipvia">RUSH–Ship Via</label>
-    <input type="text" style="width: 150px; margin-left: 20px;">
-
-    <label style="margin-left: 20px;">For Delivery By</label>
-    <input type="text" style="width: 150px; margin-left: 20px;">
-</div>
-
-<div class="checkbox-row">
-    <input type="checkbox" id="shipsoon">
-    <label for="shipsoon">Ship as soon as practical</label>
-</div>
-
-<table>
-    <tr class="section-title">
-        <th class="small"><center>Figure Number</center></th>
-		<th><center>Description</center></th>
-		<th class="small"><center>Sample<br>Y/N</center></th>
-		<th class="small"><center>Quote<br>Y/N</center></th>
-        <th class="small"><center>Usage<br>(per yr)</center></th>
-        <th class="mid"><center>Competitior</center></th>
-        
-    </tr>
-
-    <tr contenteditable="true"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr contenteditable="true"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr contenteditable="true"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr contenteditable="true"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr contenteditable="true"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr contenteditable="true"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr contenteditable="true"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr contenteditable="true"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr contenteditable="true"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr contenteditable="true"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-</table>
-
 <style>
-table .section-title th {
-    background-color: #e6e6e6;
-    font-weight: bold;
-    border: 1px solid #333;
-    padding: 6px;
-}
+    table {
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        width: 100%;
+        max-width: 1200px;
+    }
 
-table td, table th {
-    padding: 12px 6px;
-}
+    th {
+        background-color: #e6e6e6;
+        border: 1px solid black;
+        padding: 8px;
+        font-weight: bold;
+    }
 
-table tr {
-    height: 42px;
-}
+    td {
+        border: 1px solid black;
+        height: 25px;
+        padding: 4px;
+    }
 
-table tr[contenteditable="true"] td {
-    background-color: #fff;
-    min-height: 24px;
-    vertical-align: top;
-}
+    .requested-header {
+        background-color: #e6e6e6;
+        font-style: italic;
+        text-align: center;
+    }
 
-table tr:nth-child(even)[contenteditable="true"] td {
-    background-color: #f9f9f9;
-}
+    .center-text {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    sup {
+        font-size: 0.8em;
+    }
 </style>
 
-<div class="section-title"><center>Additional Information (Competitor Price, Quality, Service, Quote Copy Attn:, Etc.)</center></div>
+<table>
+    <thead>
+        <tr>
+            <th colspan="2" style="background-color: white; border: none;"></th>
+            <th style="background-color: white; border: none;"></th>
+            <th colspan="2" class="requested-header">Requested</th>
+        </tr>
+        <tr>
+            <th style="width: 5%;"><center>Item</center></th>
+            <th style="width: 65%;"><center>Detailed description of special part to be quoted</center></th>
+            <th style="width: 10%;"><center>Ann Qty <sup>1</sup></center></th>
+            <th style="width: 10%;"><center>Min Ord <sup>2</sup></center></th>
+            <th style="width: 10%;"><center>Min Rel <sup>3</sup></center></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="4" class="center-text">1</td>
+            <td contenteditable="true"></td>
+            <td rowspan="4" contenteditable="true"></td>
+            <td rowspan="4" contenteditable="true"></td>
+            <td rowspan="4" contenteditable="true"></td>
+        </tr>
+        <tr><td contenteditable="true"></td></tr>
+        <tr><td contenteditable="true"></td></tr>
+        <tr><td contenteditable="true"></td></tr>
 
-<textarea id="additionalinfo" style="width:100%; height:90px;"></textarea>
+        <tr>
+            <td rowspan="4" class="center-text">2</td>
+            <td contenteditable="true"></td>
+            <td rowspan="4" contenteditable="true"></td>
+            <td rowspan="4" contenteditable="true"></td>
+            <td rowspan="4" contenteditable="true"></td>
+        </tr>
+        <tr><td contenteditable="true"></td></tr>
+        <tr><td contenteditable="true"></td></tr>
+        <tr><td contenteditable="true"></td></tr>
+
+        <tr>
+            <td rowspan="4" class="center-text">3</td>
+            <td contenteditable="true"></td>
+            <td rowspan="4" contenteditable="true"></td>
+            <td rowspan="4" contenteditable="true"></td>
+            <td rowspan="4" contenteditable="true"></td>
+        </tr>
+        <tr><td contenteditable="true"></td></tr>
+        <tr><td contenteditable="true"></td></tr>
+        <tr><td contenteditable="true"></td></tr>
+    </tbody>
+</table>
+
+<div class="section-title">
+    <center><u>TO</u> Fred - Notes and/or Additional Details</center>
+</div>
+
+<div style="display: flex; align-items: flex-start; gap: 10px;">
+    <div style="flex: 0 0 auto; font-weight: bold; line-height: 1.5;">
+        <i><span style="color: blue;">OEM QUOTE DATE:</span><br><br><br><br><span style="color: blue;">Please quote 2026 MY Prices</span></i>
+    </div>
+    <textarea id="additionalinfo" 
+        style="
+            flex: 1;
+            height: 120px;
+            line-height: 22px;
+            padding: 6px;
+            border: 1px solid #555;
+            background-image: repeating-linear-gradient(
+                to bottom,
+                #ffffff 0,
+                #ffffff 20px,
+                #d9d9d9 21px
+            );
+            background-clip: padding-box;
+            resize: vertical;
+        ">
+    </textarea>
+</div>
+
+<div style="margin-bottom: 25px;"></div>
+
+<style>
+    table {
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    th {
+        background-color: #e6e6e6;
+        border: 1px solid black;
+        padding: 8px;
+        font-weight: bold;
+    }
+
+    td {
+        border: 1px solid black;
+        height: 25px;
+        padding: 4px;
+    }
+
+    .requested-header {
+        background-color: #e6e6e6;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .center-text {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    sup {
+        font-size: 0.8em;
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th style="background-color: white; border: none;"></th>
+            <th colspan="3" class="requested-header">Offered</th>
+            <th style="background-color: white; border: none;"></th>
+            <th style="background-color: white; border: none;"></th>
+        </tr>
+        <tr>
+            <th style="width: 5%;"><center>Item</center></th>
+            <th style="width: 20%;"><center>Annual Quantity <sup>1</sup></center></th>
+            <th style="width: 20%;"><center>Minimum Order <sup>2</sup></center></th>
+            <th style="width: 20%;"><center>Minimum Release <sup>3</sup></center></th>
+            <th style="width: 15%;"><center>Lead Time</center></th>
+            <th style="width: 10%;"><center>Price</center></th>
+            <th style="width: 10%;"><center>U of M</center></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center-text">1</td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+        </tr>
+        <tr>
+            <td class="center-text">2</td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+        </tr>
+        <tr>
+            <td class="center-text">3</td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="section-title"><center><u>FROM</u> Fred - Notes and/or Additional Details</center></div>
+
+<textarea id="additionalinfo" 
+    style="
+        width: 100%;
+        height: 120px;
+        line-height: 22px;
+        padding: 6px;
+        border: 1px solid #555;
+        background-image: repeating-linear-gradient(
+            to bottom,
+            #ffffff 0,
+            #ffffff 20px,
+            #d9d9d9 21px
+        );
+        background-clip: padding-box;
+        resize: vertical;
+    ">
+</textarea>
+
+<div style="display: flex; gap: 20px; margin-top: 20px; align-items: center;">
+
+    <!-- First column: Priced by -->
+    <div style="flex: 2; display: flex; align-items: center;">
+        <label style="white-space: nowrap; font-weight: bold; margin-right: 10px;">Priced by:</label>
+        <input type="text" style="flex: 1; padding: 5px;">
+    </div>
+
+    <!-- Second column: Date -->
+    <div style="flex: 1; display: flex; align-items: center;">
+        <label style="white-space: nowrap; font-weight: bold; margin-right: 10px;">Date:</label>
+        <input type="text" style="flex: 1; padding: 5px;">
+    </div>
+
+</div>
+
+<p><i><b><center>Return to Carlene</center></b></i></p>
+
+<footer style="margin-top: 30px; font-size: 14px; line-height: 1.4;">
+    <hr style="border: 0; border-top: 1px solid #000; width: 30%; margin-left: 0;">
+
+    <p><sup>1</sup><b><span style="color: blue;"> Annual Quantity</span></b> = an <u><b>estimate</b></u> of the volume the customer <u><b>expects to purchase</b></u> in 12 months</p>
+
+    <p><sup>2</sup><b><span style="color: blue;"> Minimum Order</span></b> = The <u><b>exact</b></u> minimum <u><b>order quantity</b></u> upon which prices are based</p>
+
+    <p><sup>3</sup><b><span style="color: blue;"> Minimum Release</span></b> = The <u><b>exact</b></u> quantity <u><b>per individual shipment</b></u> upon which prices are based</p>
+</footer>
 
 <div class="button-row">
     <button onclick="window.print()">Print Form</button>
