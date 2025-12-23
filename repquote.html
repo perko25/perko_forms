@@ -278,7 +278,23 @@ table tr:nth-child(even)[contenteditable="true"] td {
 
 <div class="section-title"><center>Additional Information (Competitor Price, Quality, Service, Quote Copy Attn:, Etc.)</center></div>
 
-<textarea id="additionalinfo" style="width:100%; height:90px;"></textarea>
+<textarea id="additionalinfo" 
+    style="
+        width: 100%;
+        height: 120px;
+        line-height: 22px;
+        padding: 6px;
+        border: 1px solid #555;
+        background-image: repeating-linear-gradient(
+            to bottom,
+            #ffffff 0,
+            #ffffff 20px,
+            #d9d9d9 21px
+        );
+        background-clip: padding-box;
+        resize: vertical;
+    ">
+</textarea>
 
 <div class="button-row">
     <button onclick="window.print()">Print Form</button>
